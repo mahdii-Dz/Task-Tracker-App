@@ -20,7 +20,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${robotoFont.className} antialiased`}>
+      <body className={`${robotoFont.className} antialiased overflow-x-clip`}>
         <Context>{children}</Context>
       </body>
     </html>
